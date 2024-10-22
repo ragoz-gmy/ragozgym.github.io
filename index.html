@@ -1,0 +1,41 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Agregue el siguiente elemento <META> a su página <HEAD>.  Si es   -->
+<!--  preciso, modifique el parámetro charset para especificar el conjunto    -->
+<!--  de caracteres de su página HTML.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Agregue el siguiente elemento <FORM> a su página.                 -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00Dbm000009qlht" method="POST">
+
+<input type=hidden name="oid" value="00Dbm000009qlht">
+<input type=hidden name="retURL" value="http://">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
+<!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
+<!--  modo de depuración.                                                     -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="olga.martinez.mtz00@gmail.com">                                  -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">Nombre</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Apellidos</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Correo electrónico</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="company">Compañía</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="city">Ciudad</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+
+<label for="state">Estado/Provincia</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
